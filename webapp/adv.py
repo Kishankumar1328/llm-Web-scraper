@@ -42,8 +42,8 @@ def process_content(text):
     return text_splitter.split_text(text)
 
 def main():
-    st.set_page_config(page_title="Smart Q&A", layout="wide")
-    st.title("Smart Q&A with AI")
+    st.set_page_config(page_title="NeuroScrape", layout="wide")
+    st.title("NeuroScrape")
     st.write("Enter a URL to get insights!")
 
     url = st.text_input("Enter URL:")
